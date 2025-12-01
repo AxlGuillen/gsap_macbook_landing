@@ -1,6 +1,7 @@
 import Navbar from './components/navbar.jsx';
 import Hero from './components/hero.jsx';
 import ProductViewer from './components/ProductViewer.jsx';
+import Showcase from './components/Showcase.jsx';
 import gsap from 'gsap';
 import { ScrollTrigger, SplitText } from 'gsap/all';
 
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <ProductViewer />
+        <Showcase />
       </main>
     );
 }
